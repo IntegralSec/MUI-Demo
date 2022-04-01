@@ -1,0 +1,9 @@
+.container  {
+    display: flex;
+    
+}
+
+.bodyContainer {
+    margin-top: 15px;
+    flex: 5;
+}

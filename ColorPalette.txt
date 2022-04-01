@@ -1,0 +1,9 @@
+=======================================================
+Color Scheme
+=======================================================
+
+2B2A2F  Dark Brown Background
+1A719E  Blue Background
+EBF6F6  White Text
+B4E3BD  Teal
+FE5012  Orange
