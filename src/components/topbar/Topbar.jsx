@@ -3,6 +3,7 @@ import "./topbar.css"
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import LanguageIcon from '@mui/icons-material/Language';
 import SettingsIcon from '@mui/icons-material/Settings';
+import avatar from './default-avatar.png'
 
 export default function Topbar() {
   return (
@@ -25,7 +26,7 @@ export default function Topbar() {
           <div className="topbarIconContainer">
             <SettingsIcon />
           </div>
-          <img src="https://api-private.atlassian.com/users/8f525203adb5093c5954b43a5b6420c2/avatar" alt="" className="topAvatar" />
+          <img src={avatar} alt="" className="topAvatar" />
         </div>
       </div>
     </div>

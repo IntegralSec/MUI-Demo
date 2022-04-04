@@ -1,3 +1,8 @@
 .home {
     flex: 4;
 }
+
+.homeWidgits {
+    display: flex;
+    margin: 20px;
+}

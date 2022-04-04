@@ -1,0 +1,75 @@
+.widgetLg {
+    flex: 3;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: -2px -2px 15px 1px rgba(0,0,0,0.25); 
+    box-shadow: -2px -2px 15px 1px rgba(0,0,0,0.30);
+}
+
+.widgetLgUser {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.widgetLgTitle {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.widgetLgTable {
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.widgetLgTr {
+
+}
+
+.widgetLgTh {
+    text-align: left;
+}
+
+.widgetLgTd {
+
+}
+
+.widgetLgImg {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.widgetLrDate, .widgetLrAmmount {
+    font-weight: 300;
+
+}
+
+.widgetLgButton {
+    display: flex;
+    width: 5.5em;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.widgetLgButton.approved {
+    background-color: #e5faf2;
+    color: #3bb077;
+}
+
+.widgetLgButton.pending {
+    background-color: #ebf1fe;
+    color: #2a7ade
+}
+
+.widgetLgButton.declined {
+    background-color: #fff0f1;
+    color: #d95087
+}

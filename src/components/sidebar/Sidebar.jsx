@@ -9,6 +9,7 @@ import PrecisionManufacturingIcon from '@mui/icons-material/PrecisionManufacturi
 import GroupsIcon from '@mui/icons-material/Groups';
 import ViewKanbanIcon from '@mui/icons-material/ViewKanban';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+import { Outlet, Link } from "react-router-dom";
 
 
 export default function Sidebar() {
@@ -20,7 +21,7 @@ export default function Sidebar() {
               Dashboard
             </h3>
             <ul className="sidebarList">
-              <li className="sidebarListItem active"><LineStyleIcon className="sidebarIcon" />Home</li>
+              <li className="sidebarListItem"><Link to="/" className="link"><LineStyleIcon className="sidebarIcon" />Home</Link></li>
               <li className="sidebarListItem"><TimelineIcon className="sidebarIcon" />Analytics</li>
               <li className="sidebarListItem"><TrendingUpIcon className="sidebarIcon" />Sales</li>
             </ul>
@@ -31,7 +32,7 @@ export default function Sidebar() {
               Quick Menu
             </h3>
             <ul className="sidebarList">
-              <li className="sidebarListItem"><LineStyleIcon className="sidebarIcon" />Home</li>
+            <li className="sidebarListItem"><GroupsIcon className="sidebarIcon" /><Link to="/users" className="link">Users</Link></li>
               <li className="sidebarListItem"><TimelineIcon className="sidebarIcon" />Analytics</li>
               <li className="sidebarListItem"><TrendingUpIcon className="sidebarIcon" />Sales</li>
             </ul>

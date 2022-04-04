@@ -1,0 +1,28 @@
+.userList {
+    flex: 4;
+}
+
+.userListUsername {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.userListUserAvatar {
+    color: grey;
+    margin-right: 20px;
+}
+
+.userListEditButton {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #1A719E;
+    color: #EBF6F6;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.userListEditDelete {
+    color: red;
+    cursor: pointer;
+}

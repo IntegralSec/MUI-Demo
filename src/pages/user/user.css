@@ -1,0 +1,52 @@
+.user{
+    flex:4 ;
+    padding: 20px;
+}
+
+.userTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userAddButton {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: #1A719E;
+    color: #EBF6F6;
+    font-weight: 600;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.userContainer {
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.userShow {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: -2px -2px 15px 1px rgba(0,0,0,0.25); 
+    box-shadow: -2px -2px 15px 1px rgba(0,0,0,0.30);
+
+}
+
+.userShowImg {
+    height: 60px;
+    width: 60px;
+    
+}
+
+.userUpdate {
+    flex: 2;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: -2px -2px 15px 1px rgba(0,0,0,0.25); 
+    box-shadow: -2px -2px 15px 1px rgba(0,0,0,0.30);    
+    margin-left: 20px;
+}
