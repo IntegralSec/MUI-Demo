@@ -10,7 +10,7 @@ export default function Topbar() {
     <div className='topbar'>
       <div className="tobbarWrapper">
         <div className="topLeft">
-          <span className='logo'>My Admin</span>
+          <span className='logo'>Node JS Demo</span>
         </div>
         <div className="topRight">
           <div className="topbarIconContainer">
